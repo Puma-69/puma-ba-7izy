@@ -27,21 +27,288 @@ const queue = new Map();
 var table = require("table").table;
 const Discord = require("discord.js");
 
+client.on("ready", async () => {
+  console.log("Starting..");
+  let g = client.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
 
-
-client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("763499020521439242");/////𝐈𝐃 SERVER
-                                                             let c = g.channels.get("763499020521439247"); /////ID CHANNEL
-                                     if(c.type === 'voice') { c.join(); 
- setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
- { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
-
-client.login("NzYzNDk4OTc5NzAxOTQ4NDM3.X34l1Q.TAaadki3tJu3bJXhDTQ0Z2ruk98");
+client.login("");
 
 const client2 = new Client({ disableEveryone: true });
 
-client2.on('ready',async () => { console.log("Starting.."); let g = client2.guilds.get("763499020521439242");/////𝐈𝐃 SERVER
-                                                             let c = g.channels.get("763499020521439247"); /////ID CHANNEL
-                                     if(c.type === 'voice') { c.join(); 
- setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
- { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
-client2.login("NzYzNTAxODUyMjgwMDk0Nzky.X34ogg.UlVoNyjsQq1yu1X3jjVBRYj-1yU");
+client2.on("ready", async () => {
+  console.log("Starting..");
+  let g = client2.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client2.login("");
+
+const client3 = new Client({ disableEveryone: true });
+
+client3.on("ready", async () => {
+  console.log("Starting..");
+  let g = client3.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client3.login("");
+
+const client4 = new Client({ disableEveryone: true });
+
+client4.on("ready", async () => {
+  console.log("Starting..");
+  let g = client4.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client4.login("");
+
+const client5 = new Client({ disableEveryone: true });
+
+client5.on("ready", async () => {
+  console.log("Starting..");
+  let g = client5.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client5.login("");
+
+const client6 = new Client({ disableEveryone: true });
+
+client6.on("ready", async () => {
+  console.log("Starting..");
+  let g = client6.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client6.login("");
+
+const client7 = new Client({ disableEveryone: true });
+
+client2.on("ready", async () => {
+  console.log("Starting..");
+  let g = client7.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client7.login("");
+const client8 = new Client({ disableEveryone: true });
+
+client8.on("ready", async () => {
+  console.log("Starting..");
+  let g = client8.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client8.login("");
+const client9 = new Client({ disableEveryone: true });
+
+client9.on("ready", async () => {
+  console.log("Starting..");
+  let g = client9.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client9.login("");
+
+const client10 = new Client({ disableEveryone: true });
+
+client10.on("ready", async () => {
+  console.log("Starting..");
+  let g = client10.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client10.login("");
+
+const client11 = new Client({ disableEveryone: true });
+
+client11.on("ready", async () => {
+  console.log("Starting..");
+  let g = client11.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client11.login("");
+
+const client12 = new Client({ disableEveryone: true });
+
+client12.on("ready", async () => {
+  console.log("Starting..");
+  let g = client12.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client12.login("");
+
+const client13 = new Client({ disableEveryone: true });
+
+client13.on("ready", async () => {
+  console.log("Starting..");
+  let g = client13.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client13.login("");
+
+const client14 = new Client({ disableEveryone: true });
+
+client14.on("ready", async () => {
+  console.log("Starting..");
+  let g = client14.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client14.login("");
+
+const client15 = new Client({ disableEveryone: true });
+
+client15.on("ready", async () => {
+  console.log("Starting..");
+  let g = client15.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client15.login("");
+
+const client16 = new Client({ disableEveryone: true });
+
+client16.on("ready", async () => {
+  console.log("Starting..");
+  let g = client16.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client16.login("");
+
+const client17 = new Client({ disableEveryone: true });
+
+client17.on("ready", async () => {
+  console.log("Starting..");
+  let g = client17.guilds.get("763499020521439242"); /////𝐈𝐃 SERVER
+  let c = g.channels.get("763499020521439247"); /////ID CHANNEL
+  if (c.type === "voice") {
+    c.join();
+    setInterval(() => {
+      if (!g.me.voiceChannel) c.join();
+    }, 1);
+  } else {
+    console.log('Failed To Join: \n The Channel Type isn "Listeni_g."');
+  }
+});
+client17.login("");
